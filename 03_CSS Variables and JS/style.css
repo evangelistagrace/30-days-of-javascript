@@ -20,3 +20,16 @@ body{
 input{
     width: 100px;
 }
+
+/* default values */
+:root{
+    --spacing: 10px;
+    --blur: 10px;
+    --base: #ffc600;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
